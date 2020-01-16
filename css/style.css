@@ -1,0 +1,222 @@
+body {
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    background: #696969;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#f1f1f1;
+}
+
+
+
+nav {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #808080;
+    
+}
+
+nav a {
+    text-decoration: none;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+    text-align: center;
+    width:  100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+a:hover{
+   background-color:#DCDCDC;   
+    transition: 0.6s;
+}
+
+header {
+    background-color: #4682B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0;
+}
+
+header h1{
+    padding: 10px 0px;
+    color: #DCDCDC;
+    font-family: "Mitr"
+}
+header h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Bhai";
+    color: #DCDCDC;
+}
+#sobre {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url("../img/bg-header.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+}
+
+#servicos h2{
+    margin: 10px 0;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+    margin: 10px 0;
+    width: 50%;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    border-radius: 30px;
+    
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+/* Add some padding inside the card container */
+.container-card {
+  padding: 2px 16px;
+}
+
+.container-card p {
+    
+    font-family: helvetica,arial;
+    font-size: 1em;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container-card h4 {
+    color: aliceblue;
+    margin: 0;
+}
+
+#servicos img{
+    
+    width: 50%;
+    padding: 10px 10px;
+    margin:10px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.5);
+    background-color: cadetblue;
+    border-radius: 10px;
+    
+}
+
+
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: chocolate;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#contato img {
+    padding: 10px;
+}
+
+
+footer {
+    
+    text-align: center;
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+    
+}
+
+/*media queries*/
+
+@media screen and (min-width: 550px) {
+    /*
+    NAVEGAÇÃO
+    */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+    
+    #servicos h2{
+        text-align: center;
+        width: 100%;
+    }
+    #servicos div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+        
+    }
+    
+   
+
+}
+@media screen and (min-width: 400px){
+    
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+        
+}
