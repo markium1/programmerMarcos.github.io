@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>CASOS DE COVID-19</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="js/requisicao.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload=fazerRequisicao() class="text-canter"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" id="card-dados" >
+          <img src="img/globo.webp" id="img-card">
+          <p>NUMERO DE CASOS EM TODO O MUNDO</p>
+          <p id="qt_casos">Carregando...</p>
+
+        </div>
+          <div class="col-sm" id="card-dados">
+              <img src="img/coracao.png"  id="img-card">
+              <p>QUANTIDADE DE RECUPERADOS</p>
+              <p id="qt_recuperados">Carregando...</p>
+          </div>
+            <div class="col-sm" id="card-dados">
+                <img src="img/caveira.webp" id="img-card">
+                <p>QUANTIDADE DE MORTES</p>
+                <p id="qt_mortes">Carregando...</p>
+            </div>
+      </div>
+        
+    </div>
+</body>
+</html>
