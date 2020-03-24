@@ -1,0 +1,45 @@
+body{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-image: url("../img/coronavirus-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card-dados{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    padding: 8.25%;
+    margin-top: 5%;
+    margin-right: 2%;
+    border-radius: 200px;
+}
+
+#card-dados p{
+    font-family: 'Ubuntu Mono', 'Acme', monospace;
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+#img-card{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    align-items: center;
+
+}
