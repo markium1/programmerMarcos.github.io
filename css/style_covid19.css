@@ -6,27 +6,47 @@ body{
     align-items: center;
     text-align: center;
     height: 100%;
-    background-image: url("../img/coronavirus-background.jpg");
+    background-color: black;
+    /*background-image: url("../img/background.png");*/
+    /*background-image: linear-gradient(rgba(245, 4, 4, 0.849), rgba(0, 60, 255, 0.788));*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Share Tech Mono', monospace, 'Acme', monospace;
+    font-size: 2em;
+    color: rgba(217, 226, 162, 0.829);
+    font-weight: 800;
+}
+
+footer {
+    
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    color: #f1f1f1;
+    
 }
 
 #card-dados{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 50%;
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.7);
+    float: left;
+    width: 100%;
+    box-shadow:0 4px 8px 0 rgba(120, 238, 9, 0.7);
     transition: 0.3s;
-    padding: 8.25%;
+    padding: 5%;
     margin-top: 5%;
     margin-right: 2%;
-    border-radius: 200px;
+    border-radius: 50px;
+    
 }
 
 #card-dados p{
-    font-family: 'Ubuntu Mono', 'Acme', monospace;
+    font-family: 'Share Tech Mono', monospace, 'Acme', monospace;
     font-size: 1em;
     font-weight: 700;
     color: #ffffff;
@@ -43,3 +63,24 @@ body{
     align-items: center;
 
 }
+
+/*
+#seletor-pais{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 2%;
+    font-size:11px"
+}
+
+
+#btn-pesquisar{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 2%;
+    font-size:11px"
+
+}*/
