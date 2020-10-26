@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js"></script>
+    <title>Aprenda Xadrez</title>
+</head>
+<body>
+   
+    <div class="container">
+
+
+       <header>
+           
+           <section id="pecas">
+                <h1>Saiba como funciona cada peça em jogo de xadrez</h1>
+                <img src="img/rei.png" alt="rei" title="Rei">
+                <img src="img/rainha.png" alt="rainha" title="Rainha">
+                <img src="img/torre.png" alt="torre" title="Torre">
+                <img src="img/bispo.png" alt="bispo" title="Bispo">
+                <img src="img/cavalo.png" alt="cavalo" title="Cavalo">
+                <img src="img/peao.png" alt="peao" title="Peão">
+            </section>
+       </header>
+        <section class="mov-pecas">
+
+            <div class="card-pecas" id="rei">
+                <h2>REI</h2>
+                <img src="img/movrei.gif" alt="rei">
+                <p>Rei
+                    Pode mover-se em qualquer direção, porém apenas uma casa por vez.
+                </p>
+            </div>
+
+            <div class="card-pecas" id="rainha"> 
+                <h2>RAINHA</h2>
+                <img src="img/movdama.gif" alt="rainha">
+                <p>Dama
+                    Assim como o Rei, pode mover-se em qualquer direção, 
+                    porém, quantas casas quiser, desde que estejam livres.
+                </p>
+            </div>
+
+            <div class="card-pecas" id="torre">
+                <h2>TORRE</h2>
+                <img src="img/movtorre.gif" alt="torre">
+                <p>Torre
+                    Move-se em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.
+                </p>
+            </div>
+
+            <div class="card-pecas" id="bispo">
+                <h2>BISPO</h2>
+                <img src="img/movbispo.gif" alt="bispo">
+                <p>Bispo
+                    Move-se na diagonal, quantas casas quiser. O Bispo que iniciar a partida em uma casa branca somente poderá 
+                    transitar pelas brancas, 
+                    enquanto o Bispo que inicia em uma casa preta somente poderá transitar pelas casas pretas.
+                </p>
+            </div>
+
+            <div class="card-pecas" id="cavalo">
+                <h2>CAVALO</h2>
+                <img src="img/movcavalo.gif" alt="cavalo">
+                <p>Cavalo
+                    É a única peça que pode saltar sobre as outras peças do tabuleiro, sejam elas amigas ou inimigas. 
+                    Ele pode andar duas casas na horizontal e uma na vertical, ou duas na vertical e uma na horizontal, uma na horizontal e duas na vertical, e assim por diante. 
+                </p>
+            </div>
+            <div class="card-pecas" id="peao">
+                <h2>PEÃO</h2>
+                <img src="img/movpeao.gif" alt="peao">
+                <p> Peão
+                    Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas.
+                    O peão pode capturar as peças que estejam uma fileira acima, mas nas colunas adjacentes a sua
+                </p>
+            </div>
+
+           
+
+        </section>
+
+        <section class="formulario">
+
+            <span>Quer saber mais sobre o Xadrez? Preencha os campos abaixo: </span>
+            <form name="form1" method="post">
+                Nome:
+                <input name="nome" type="text"><br /><br />
+                Email:
+                <input name="email" type="email"><br /><br />
+                <input type="submit"  onclick=" return validar()">
+            </form>
+        </section>
+    </div>
+    <footer>
+        Desenvolvido por Marcos Soares
+    </footer>
+</body>
+</html>
