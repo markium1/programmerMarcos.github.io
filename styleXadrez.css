@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+p{
+    margin: 5px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+header{
+
+    text-align: center;
+}
+
+footer{
+    background-color: seashell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-pecas{
+    margin: 10px;
+    width: 30%;
+    background-color: rgba(253, 253, 253, 0.863);
+    border-radius: 20px;
+    box-shadow:0 4px 8px 0 rgba(24, 16, 16, 0.7);
+}
+
+.card-pecas img{
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color:bisque;
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.formulario input{
+
+    align-items: center;
+    margin: 10px;
+}
+#pecas{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pecas img{
+
+    width: 7%;
+    margin: 0 10px;
+}
+
+#pecas img:hover{
+    width: 7.5%;
+    border-radius: 20px;
+    box-shadow:0 4px 8px 0 rgba(5, 5, 5, 0.7)
+    
+}
+.mov-pecas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
