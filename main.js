@@ -15,6 +15,6 @@ function validar() {
     }
 
     alert("Para aprender mais, entre no maior site de xadrez do mundo e faça seu cadastro!")
-    window.open("https://www.google.com")
+    window.open("https://www.chess.com")
     
 }
